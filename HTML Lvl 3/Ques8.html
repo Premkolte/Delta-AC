@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resitration Form</title>
+</head>
+<body>
+    <form action="/server">
+        <h2>Resitration Form</h2>
+        <input type="text" placeholder="First name" name="Fname">
+        <input type="text" placeholder="Last Name" name="Lname">
+        <br>
+        <label for="gender">Choose Your Gender</label>
+        <select id="gender" name="Gender" >
+            <option value="m">Male</option>
+            <option value="f">Female</option>
+            <option value="o">Others</option>
+        </select>
+        <br>
+        Do you agree all the terms of service ?
+        <input type="checkbox" id="yes" name="agree">
+        <label for="yes">Yes , I Agree</label>
+
+        <br>
+        <button>Resister</button>
+    </form>
+</body>
+</html>

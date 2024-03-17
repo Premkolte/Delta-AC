@@ -1,0 +1,9 @@
+div{
+    height: 200px;
+    width: 300px;
+    background-color: aqua;
+    text-align: center;
+
+    /* box-shadow:Xaxis Yaxis darkness/blur color ; */
+    box-shadow: 5px 5px 10px green;
+}

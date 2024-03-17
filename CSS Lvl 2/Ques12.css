@@ -1,0 +1,33 @@
+h1{
+   color: pink;
+}
+#greet{  /* id Selector is more powerfull */
+   color: yellow;
+}
+.myClass{
+   color: brown;
+}
+
+
+
+div P {  /* descendent selection */
+    background-color: black  /* 0 0 2 */   /* id class element */
+}
+.para { /* class selection */
+    background-color:blue;  /* 0 1 0 */
+}
+p{ /* class selection */
+    background-color:green; /* 0 0 1 */
+}
+
+
+
+div .greetDiv .greet {
+    color: green;  /* 0 2 1 */
+}
+.greetDiv p.greet{
+    color: blue;  /* 0 2 1 */
+}
+.greetDiv .greet{
+    color: red;  /* 0 2 0 */
+}

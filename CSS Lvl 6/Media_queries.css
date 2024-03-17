@@ -1,0 +1,32 @@
+h1{
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+@media (width :400px) {
+    h1{
+background-color: red;
+    }
+}
+
+h2{
+    background-color: pink;
+    border: 2px solid black;
+}
+
+@media (min-width: 450px){
+    h2{
+        background-color: greenyellow;
+    }
+}
+
+h3{
+    background-color: orange;
+    border: 2px solid black;
+}
+
+@media (max-width: 450px){
+    h3{
+        background-color: blue;
+    }
+}

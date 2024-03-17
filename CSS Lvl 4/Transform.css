@@ -1,0 +1,44 @@
+section{
+    margin-top: 100px;
+}
+div{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    background-color: aqua;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+div:nth-last-of-type(2n){
+    background-color: blueviolet;
+}
+
+div:nth-last-of-type(3n){
+    background-color: blanchedalmond;
+}
+
+
+/* TRANSFORM */
+
+#one{
+    transform: rotate(45deg);
+}
+
+#two{
+    transform: scale(0.7 , 0.5) ;  /* (x,y,z)*/
+}
+
+#three{
+    transform: translate(60px , 20px);
+}
+
+#four{
+    transform: skew(30deg);
+}
+
+/* multiple */
+
+#five{
+    transform: rotate(30deg) skew(30deg);
+}

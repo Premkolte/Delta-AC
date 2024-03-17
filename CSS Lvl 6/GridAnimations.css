@@ -1,0 +1,64 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    
+                /* ANimation */
+    animation-name: animation;            
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+
+}
+
+@keyframes  animation{
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 40px;
+    }
+}
+
+.box1{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    
+                /* ANimation */
+    animation-name: color;            
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+
+}
+
+@keyframes color{
+    from{
+        background-color: green;
+    }
+    to{
+        background-color: blue ;
+    }
+}
+
+.box2{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(136, 14, 35);
+    
+                /* ANimation */
+    /* animation-name: color;            
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 3;
+    animation-direction: normal; */
+
+    animation: color 4s linear 2s 5 normal ;
+
+}

@@ -1,0 +1,139 @@
+/* for whole html file */
+*{
+    font-family: 'Courier New';
+}
+
+
+/* for selecting multiple tags */
+h1,h3{
+    color: #b92b27;
+}
+
+
+/* for id attribute */
+#login{
+    background-color: white;
+}
+
+#signup{
+    background-color: #b92b27;
+}
+
+
+/* for class attribute  */
+.upvote{
+    background-color: blue;
+    color: aliceblue;
+}
+
+
+/* descendant selectors */
+
+/* not a good idea /
+p a{
+    color: purple;
+    background-color: yellow;
+} */
+
+/* Best */
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+
+
+/* sibiling combinator */
+p + h3{
+    text-decoration: underline;
+}
+
+.upvote + button{
+    background-color: cornflowerblue;
+    color: blue;
+}
+
+
+/* child combinator */
+div > input{
+    background-color: darksalmon;
+}
+
+
+/* Attribute Selector */
+input[type="text"]{
+    color: red;
+}
+
+input[type="password"]{
+    color: green;
+}
+
+input[type]{
+    background-color: ghostwhite;
+}
+
+/* 
+
+All CSS Simple Selectors
+Selector	            Example	Example                 description
+#id	                    #firstname	                    Selects the element with id="firstname"
+.class	                .intro	                        Selects all elements with class="intro"
+element.class	        p.intro	                        Selects only <p> elements with class="intro"
+*	                    *	                            Selects all elements
+element	                p	                            Selects all <p> elements
+element,element,..	    div, p	                        Selects all <div> elements and all <p> elements 
+
+*/
+
+
+/* Pseudo Class */
+button:hover {
+    color: white;
+    background-color: black;
+}
+
+h3:hover {
+    text-decoration: none;
+}
+
+button:active {
+    background-color: hotpink;
+}
+
+p:active {
+    color: green;
+}
+
+input[type="radio"]:checked + label{
+    font-weight: bold;
+    color: red;
+}
+
+div:nth-of-type(2n){
+    background-color: antiquewhite;
+}
+
+
+/* Pseudo Element */
+h1::first-letter{
+    color: Green;
+}
+
+p::first-line{
+    color:purple
+}
+
+p::selection{
+    background-color: black;
+}
+
+/* Selector Specificity */
+/* 
+1) inline style(least used) > id > class > element
+2) more (specific) selectors >> less selectors
+3) if specificity is same then ==> last mei jo apply kiyo woh consider hoga
+*/
+
+h1{
+    color: red !important;  /* sabka baap - koi change nahi kar sakta */
+}

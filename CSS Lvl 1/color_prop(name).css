@@ -1,0 +1,19 @@
+h1{
+    color: blue;
+    background-color: grey;
+}
+
+h2{
+    color :gold ;
+    background-color: silver;
+}
+
+p{
+    color : red;
+    background-color: aliceblue;
+}
+
+button{
+    color: gold;
+    background-color: green;
+}

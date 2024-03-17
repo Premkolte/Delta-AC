@@ -1,0 +1,11 @@
+div{
+    height: 400px;
+    width: 200px;
+    /* margin: 50px auto; */
+    /* background-color: aquamarine; */
+
+    background-image: url("leaperd.jpg");
+
+    /* background-size: contain || cover || auto; */
+    background-size: cover;
+}

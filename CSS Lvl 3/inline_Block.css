@@ -1,0 +1,14 @@
+div{
+    height: 100px;
+    width: 100px;
+
+    background-color: lime;
+
+    border: 5px solid black;
+    margin: 10px;
+
+
+    /* inline_Block */
+
+    display: inline-block;
+}

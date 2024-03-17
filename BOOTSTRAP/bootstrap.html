@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+    <button class="bg-danger">helloooo</button>
+
+    <div class="container">
+        <h2>Bootstrap Demo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem voluptatum, laboriosam numquam odit, omnis quaerat ipsa explicabo, suscipit nihil impedit odio quos deleniti beatae perspiciatis. Sed est accusantium quos molestias eveniet iste autem. Amet ut perferendis consectetur incidunt a dicta modi? Dolores expedita, culpa minima officiis unde, voluptatum vero, id hic illum facere minus. Porro veniam labore provident voluptate ipsa cupiditate quia omnis voluptas consequuntur ea aliquam tempora repellat non inventore magni, expedita eum earum voluptatibus autem quis facere natus quas similique. Natus distinctio odit velit obcaecati dolorum excepturi quo! Deleniti quibusdam hic error, fuga soluta suscipit minima illo eum neque officiis alias ducimus quasi blanditiis odio rerum perspiciatis dolor veritatis architecto enim magni incidunt dolorem perferendis libero. Eum magnam quas doloribus ea ab. Placeat dolore cumque totam illum, quas repudiandae asperiores enim nobis repellat exercitationem quia harum! Officiis nisi illo officia quidem placeat sint eligendi sed ea expedita ipsa!</p>
+    </div>
+    <button class="btn bg-success">click me</button>
+    <button class="btn btn-outline-info">click me</button>
+
+    <hr>
+
+    <!-- anchor tag -->
+    <a href="google.com" class="btn btn-dark">Google</a>
+
+    <hr>
+
+    <!-- Badge -->
+    <h2>whatsapp<h6><span class="badge bg-secondary">new+</h6></span></h2>
+    <h3>Example heading <span class="badge bg-secondary">New</span></h3>
+
+
+    <!-- button badge -->
+    <button class="btn bg-info">Followers <span class="badge bg-dark">100M</span></button>
+
+    <hr>
+
+    <!-- alerts -->
+    <div class="alert alert-primary" role="alert">A simple primary alert—check it out!</div>
+
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <hr>
+
+    <!-- Button Group -->
+    <div class="btn-group">
+        <button class="btn btn-info">left</button>
+        <button class="btn btn-primary">middle</button>
+        <button class="btn btn-secondary">right</button>
+    </div>
+
+    <hr>
+
+    <!-- Navbar -->
+    <nav class="navbar bg-body-tertiary navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <!-- Brand/logo -->
+            <a class="navbar-brand" href="#">brand Name</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbarNavAltMarkup">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#">contact</a>
+                    <a class="nav-link" href="#">About us</a>
+                    <a class="nav-link" href="#">Home</a>
+                </div>
+            </div>
+
+            <form class="d-flex">
+                <input class="form-control me-2 " type="search" placeholder="search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <hr>
+
+    <!-- Card -->
+    <div class="card" style="width: 18rem">
+        <img src="photo.jpg" alt="camera pic">
+        <div class="card-body">
+            <h4 class="cardtitle">Photography</h4>
+            <div class="card-text">
+                It is an art to capture important moments   
+            </div>
+            <a href="#" class="btn btn-primary">Go Somewhere</a>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- GRID  -->
+    <div class="container">
+        <h2>Grid System</h2>
+        <div class="row">
+            <div class="col bg-success">ONE</div>
+            <div class="col bg-danger">TWO</div>
+            <div class="col bg-body-tertiary">THREE</div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-3 bg-success">ONE</div>
+            <div class="col-7 bg-danger">TWO</div>
+            <div class="col-2 bg-body-tertiary">THREE</div>
+        </div>
+
+        <hr>
+
+        <!-- FORMS -->
+        <div class="container">
+            <h2>Form</h2>
+            <form class="mb-3">
+                <div class="mb-3">
+                <label class="form-label" for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Email">
+
+                <label for="pass">Password</label>
+                <input type="password" class="form-control" id="pass" placeholder="Password">
+                </div>
+
+                <div class="mb-3">
+                    <select class="form-select">
+                        <option selected>Choose Your City</option>
+                        <option value="1">Pune</option>
+                        <option value="2">Mumbai</option>
+                        <option value="3">Delhi</option>
+                    </select>
+                </div>
+
+                <div class="form-check">
+                    <label for="check" class="form-check-label">Agree</label>
+                    <input type="checkbox" id="check" class="form-check-input">
+                </div>
+
+            </form>
+        </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
